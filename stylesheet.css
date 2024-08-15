@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:black;
+    max-width: 100%;
+    border: 1px solid;
+    padding: 3%;
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    border-color: rgb(36, 36, 97);
+    background-color: white;
+    position:-webkit-sticky;
+    position: sticky;
+    top:0;
+    
+}
+h1:hover{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: white;
+    color: rgb(72, 255, 0);
+    max-width: 100%;
+    border: 1px solid;
+    padding:3%;
+    margin: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    border-color:rgb(36, 36, 97);
+}
+video{
+    width:100%;
+    height:100%;
+    display: block;
+    vertical-align: middle;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(36,36,97);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:0.9%;
+}
+a:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: left;
+    text-decoration: none;
+    color: goldenrod;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:0.9%;
+}
+img{
+    margin: 1%;
+}
+div{
+    background-color: White;
+    text-align: center;
+    color: black;
+    margin: 0%;
+    padding: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3%;
+}
+
+p{
+    display: inline-block;
+    border: 2px solid;
+    padding: 1%;
+    border-color: rgb(255, 173, 66);
+    border-style: outset;
+    color: black;
+    
+}
+p:hover{
+    display: inline-block;
+    border: 2px solid;
+    padding: 1%;
+    border-color:rgb(97, 37, 37);
+    border-style: inset;
+    color:rgb(255, 173, 66);
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: goldenrod;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:rgb(5, 1, 1);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #eeeaea;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: rgb(31, 16, 16);
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
